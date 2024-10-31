@@ -19,7 +19,6 @@ Given the exceptional performance of XGBoost and the dataset size, additional hy
 * Numerical features were scaled to standardize the data in the deep learning and isolation forest models.
 2. **Handling Class Imbalance**:
 * The Synthetic Minority Oversampling Technique (SMOTE) was applied to the training data in the deep learning model, but it was deemed not necessary in the isolation forest and XGBoost models. 
-* Both techniques were evaluated to determine which offered better model performance and alignment with the test distribution.
 3. **Modeling**:
 * Three distinct models—XGBoost, Isolation Forest, and a deep learning neural network—were implemented to address the classification task from different perspectives.
 * Model performance was evaluated primarily through the ROC AUC metric.
